@@ -1,0 +1,46 @@
+body {
+  background-color: #000026;
+  font-size: 16px;
+}
+h1 {
+  color: white;
+}
+.raunded-img {
+  width: 90%; /* ширина */
+  border-radius: 50%; /* граница радиуса */
+  box-shadow: 0 0 6px 4px rgb(242 240 240); /* коробка-тень */
+  padding: 0.6em;
+  background-color: rgb(170, 186, 200); /* дополнение, набивка;
+     фон-цвет*/
+  margin-bottom: 2em; /* отступ нижняя часть */
+}
+.card {
+  background-color: rgb(60 4 140);
+  border-radius: 3%;
+  box-shadow: 0 0 0px 1px rgb(242 240 240);
+  text-align: center;
+  padding: 1em;
+}
+.card:hover {
+  background-color: rgba(225, 225, 137, 0.869);
+}
+.card img {
+  border-radius: 5%;
+  width: 60%;
+  margin: auto;
+  box-shadow: 0 0 6px 4px rgb(242 240 240);
+}
+.box-shadow {
+  box-shadow: 0 0 6px 4px rgb(242 240 240);
+}
+.box-model > div {
+  float: left;
+  background: #000026;
+  height: 800px;
+  width: 33%;
+  border: 4px solid red;
+  box-sizing: border-box;
+}
+.background {
+  background: #2f1b6e;
+}
