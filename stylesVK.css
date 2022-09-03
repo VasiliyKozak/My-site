@@ -1,6 +1,14 @@
 body {
   background-color: #000026;
   font-size: 16px;
+  margin: 72px 0px 0px 0px;
+}
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 h1 {
   color: white;
